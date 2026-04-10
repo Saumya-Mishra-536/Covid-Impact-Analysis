@@ -1,4 +1,4 @@
-# 🦠 COVID-19 India Data Analysis
+#  COVID-19 India Data Analysis
 
 A modular Python project for exploratory data analysis, statistical analysis, and visualization of COVID-19 data across Indian states (January 2020 – August 2021).
 
