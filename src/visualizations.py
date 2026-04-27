@@ -10,6 +10,9 @@ import warnings
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+
+
+
 import matplotlib.ticker as mticker
 import seaborn as sns
 import pandas as pd
@@ -366,3 +369,9 @@ def generate_all(nat, state_summary, df):
     plot_death_scatter(state_summary)
     plot_correlation(state_summary)
     print("\n✅  All plots saved to outputs/plots/\n")
+import os
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUT = os.path.join(BASE_DIR, "outputs", "plots")
+
+os.makedirs(OUT, exist_ok=True)   # ✅ creates folder automatically
