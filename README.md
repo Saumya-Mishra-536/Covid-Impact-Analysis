@@ -14,10 +14,10 @@ covid_analysis/
 │   ├── data_loader.py            # Data ingestion, cleaning & feature engineering
 │   ├── eda.py                    # Exploratory Data Analysis & summary report
 │   ├── stats_analysis.py         # Growth rates, wave detection, state rankings
-│   └── visualizations.py        # All 10 charts (matplotlib + seaborn)
+│   └── visualizations.py         # All 10 charts (matplotlib + seaborn)
+    |__ main.py                   # Entry point — runs the full pipeline
 ├── outputs/
-│   └── plots/                    # Auto-generated PNG charts
-├── main.py                       # Entry point — runs the full pipeline
+│   └── plots/                    # Auto-generated PNG charts                    
 └── requirements.txt              # Python dependencies
 ```
 
